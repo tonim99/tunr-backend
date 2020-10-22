@@ -2,9 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +21,13 @@
   "devDependencies": {
     "morgan": "^1.10.0",
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-shahid/tunr-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r-shahid/tunr-backend/issues"
+  },
+  "homepage": "https://github.com/r-shahid/tunr-backend#readme"
 }

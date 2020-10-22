@@ -6,6 +6,10 @@ router.get("/", async (req, res) => {
     res.json(await Song.find({}));
   });
 
+router.put("/:id", async (req, res) => {
+    res.json(await Song.findByIdAndUpdate(req.params.id, req.body, { new: true }));
+  });
+
 router.post("/", async (req, res) => {
     res.json(await Song.create(req.body));
   });

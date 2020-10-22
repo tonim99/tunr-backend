@@ -1,4 +1,4 @@
-const Song = require("../models/songs");
+const Song = require("../models/song");
 const { Router } = require("express");
 const router = Router();
 

@@ -12,7 +12,6 @@ const main = async () => {
         time: '3:01', 
         artist: 'Porter Robinson' 
         },
-
 	];
 
 	await Song.insertMany(songs);
